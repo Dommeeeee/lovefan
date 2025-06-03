@@ -1,0 +1,30 @@
+
+{
+  "name": "love-website-4-months",
+  "version": "1.0.0",
+  "description": "เว็บไซต์ความทรงจำ 4 เดือนมหัศจรรย์",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step needed for static site'",
+    "dev": "npx serve . -l 5000",
+    "preview": "npx serve .",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "love",
+    "anniversary",
+    "static-website",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "เค้า",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
